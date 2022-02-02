@@ -33,19 +33,7 @@ public class FourThought {
 			i++;
 		}
 	}
-	
-	
-	//Solves the equation Multiplying and dividing first
-	public static int SolveEquation(int i, int j, int k) {
-		int num = 4;
-		if (i < 2) num = ParseOperator(i, num);
-		if (j < 2) num = ParseOperator(j, num);
-		if (k < 2) num = ParseOperator(k, num);
-		if (i > 1) num = ParseOperator(i, num);
-		if (j > 1) num = ParseOperator(j, num);
-		if (k > 1) num = ParseOperator(k, num);
-		return num;
-	}
+
 	
 	//Returns the string equation
 	public static String GetEquation(int i, int j, int k) {
@@ -57,16 +45,6 @@ public class FourThought {
 	}
 	
 	
-	//Gets operator and applies to number
-	public static int ParseOperator(int op, int num) {
-		switch(op) {
-		case 0:return num *4;
-		case 1:return num /4;
-		case 2:return num +4;
-		case 3:return num -4;
-		}
-		return 0;
-	}
 	//Gets operator and applies to string
 		public static String ParseOperator(int op, String s) {
 			switch(op) {
