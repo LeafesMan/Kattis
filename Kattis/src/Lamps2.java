@@ -33,10 +33,10 @@ public class Lamps2 {
 			}
 		}
 
-		
 		System.out.print(day);
 	}
 	
+	//Returns true if low energy lamp is cheaper
 	private static boolean isLowEnergyCheaper(int day, int pricePerHour, int hoursPerDay) {
 		return 60 + (float)(11 * pricePerHour * day * hoursPerDay)/100000 <= 5 + ((hoursPerDay*day-1)/1000) * 5 + (float)(60 * pricePerHour * day * hoursPerDay)/100000;
 	}
