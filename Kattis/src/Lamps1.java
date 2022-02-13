@@ -5,7 +5,7 @@ public class Lamps1 {
 		//Initialize Vars
 		Scanner in = new Scanner(System.in);
 		int hoursPerDay = in.nextInt(), pricePerHour = in.nextInt(), day = 0, priceForBulbs = 5;
-		
+		in.close();
 
 		
 		//Increment days until buying iradescent lamp is cheaper

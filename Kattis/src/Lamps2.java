@@ -6,7 +6,7 @@ public class Lamps2 {
 		//Initialize Vars
 		Scanner in = new Scanner(System.in);
 		int hoursPerDay = in.nextInt(), pricePerHour = in.nextInt(), day, i, priceForBulbs = 5;
-		
+		in.close();
 
 		//Finds max number of days and starts at half
 		day = i = 8000 / hoursPerDay / 2;
