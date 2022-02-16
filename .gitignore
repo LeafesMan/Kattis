@@ -38,3 +38,13 @@ tmp/
 local.properties
 .loadpath
 .factorypath
+
+##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
